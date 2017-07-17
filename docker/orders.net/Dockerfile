@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:latest
+FROM spankil/orders.net:latest
 
 COPY . /app
 
