@@ -84,6 +84,7 @@ namespace CustomerOrdersApi
         public IActionResult Get(string id)
         {
             CustomerOrder order = collection.Find(x => x.Id.Equals(id)).First();
+            order.Total += order.Total + 1000;
             if(order == null) {
                 return NotFound();
             }
