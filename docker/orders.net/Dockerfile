@@ -1,17 +1,15 @@
 FROM microsoft/dotnet:latest
 
-ARG source  
-RUN echo "source: $source"  
-WORKDIR /app  
-COPY ${source:-/} .  
-
-COPY . /app
+RUN ["dotnet", "restore"]
+RUN apt-get update && apt-get install -y tcpdump jq
 
 WORKDIR /app
 
+RUN ["dotnet", "run"]
+ONBUILD COPY . /app
+
 RUN ["dotnet", "restore"]
 RUN apt-get update && apt-get install -y tcpdump jq
-RUN ["dotnet", "build"]
 
 EXPOSE 80/tcp
 
