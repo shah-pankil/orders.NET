@@ -3,7 +3,7 @@ FROM microsoft/dotnet:latest
 ARG source  
 RUN echo "source: $source"  
 WORKDIR /app  
-COPY ${source:-/build} .  
+COPY ${source:-/} .  
 
 COPY . /app
 
