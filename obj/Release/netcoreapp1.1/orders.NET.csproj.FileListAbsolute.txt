@@ -1,0 +1,8 @@
+C:\Users\Pankil\Source\Repos\orders.NET\bin\Release\netcoreapp1.1\orders.NET.deps.json
+C:\Users\Pankil\Source\Repos\orders.NET\bin\Release\netcoreapp1.1\orders.NET.runtimeconfig.json
+C:\Users\Pankil\Source\Repos\orders.NET\bin\Release\netcoreapp1.1\orders.NET.runtimeconfig.dev.json
+C:\Users\Pankil\Source\Repos\orders.NET\bin\Release\netcoreapp1.1\orders.NET.dll
+C:\Users\Pankil\Source\Repos\orders.NET\bin\Release\netcoreapp1.1\orders.NET.pdb
+C:\Users\Pankil\Source\Repos\orders.NET\obj\Release\netcoreapp1.1\orders.NET.AssemblyInfo.cs
+C:\Users\Pankil\Source\Repos\orders.NET\obj\Release\netcoreapp1.1\orders.NET.dll
+C:\Users\Pankil\Source\Repos\orders.NET\obj\Release\netcoreapp1.1\orders.NET.pdb

@@ -1,12 +1,11 @@
 FROM microsoft/dotnet:latest
 
-RUN ["dotnet", "restore"]
-RUN apt-get update && apt-get install -y tcpdump jq
+RUN ls -ltr
 
+COPY . /app
 WORKDIR /app
 
-RUN ["dotnet", "run"]
-ONBUILD COPY . /app
+RUN ls -ltr
 
 RUN ["dotnet", "restore"]
 RUN apt-get update && apt-get install -y tcpdump jq

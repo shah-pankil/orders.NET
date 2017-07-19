@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Debug\\netcoreapp1.1",
+    "\\bin\\Release",
+    "\\bin\\Release\\netcoreapp1.1",
+    "\\Config",
+    "\\docker",
+    "\\docker\\orders.net"
+  ],
+  "SelectedNode": "\\docker\\orders.net\\Dockerfile",
+  "PreviewInSolutionExplorer": false
+}
